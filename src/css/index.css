@@ -1,0 +1,534 @@
+*{margin: 0;padding: 0}
+html{
+    font-size:62.5%;
+}
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    line-height: 1.5;
+    background:#fff;
+}
+ul,ol{
+    list-style: none;
+}
+::selection{
+    background: #ccc;
+}
+.swiper-container {
+    width: 600px;
+    height: 300px;
+} 
+/*清除浮动*/
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*内容居中*/
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+a{
+    color:#000;
+    text-decoration: none;
+}
+/*头部*/
+header{
+    background: #1c1c1c;
+}
+.top{
+    padding:1rem 10rem 1rem 10rem;
+}
+.t-left span{
+    color:#aeaeae;
+    font-size: 1.4rem;
+    margin-right: 2.6rem;
+    display:inline-block;
+}
+.login,.regist{
+    font-size: 1.3rem;
+    color:#aeaeae;
+}
+.login{
+    margin-right: 2.7rem;
+}
+.t-left a:hover{
+    color:#0175c2;
+}
+.t-right{
+    float: right;
+}
+.t-right a{
+    display:inline-block;
+    margin-right: 2rem;
+    color:#aeaeae;
+}
+.t-right img{
+    margin-right: 1rem;
+}
+
+/*nav*/
+nav{
+    padding:2rem 0 0rem 0;
+}
+nav img{
+    width: 80%;
+}
+.nav-t p{
+    color:#0078ca;
+    font-size: 2.6rem;
+    margin-left: 1.5rem;
+}
+.nav-left{
+    padding:1rem 1rem 0rem 1rem ;
+}
+.nav-t{
+    border-left: 1px solid #e5e5e5;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.nav-t span{
+    color:#aeaeae;
+    font-size: 1.4rem;
+    margin-top: -2rem;
+    display:block;
+    margin-left: 1.5rem;
+}
+
+.breadcrumb{
+    background:transparent;
+    margin-top: 3rem;
+}
+.breadcrumb li{
+    margin:1rem;
+    border-bottom:2px solid transparent;
+    padding-bottom: 1rem;
+}
+.breadcrumb li:hover{
+    border-bottom:2px solid #0079c9;
+    padding-bottom: 1rem;
+    color:#0079c9;
+}
+.breadcrumb li:hover a{
+    text-decoration: none;
+}
+/*banner*/
+
+.banner{
+    width: 100%;
+}
+
+.con{
+    width: 100%;
+    /*background: red;*/    
+}
+.s-con{
+    border: 1px solid #e5e5e5;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.con-left>div{
+    float: left;
+    width: 50%;
+    border-right:1px dashed #e1e1e1 ;
+}
+.con-left>div:last-of-type{
+    border-right: 0px;
+}
+.con-left>div>img{
+    float: left;
+    display: block;
+    width: 50%;
+}
+.con-left>div>h3{
+    float:left ;
+    width: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+.con-left>div>p{
+    font-size: 14px;
+    color: #999999;
+}
+.con-right{
+    border-left: 1px solid #e1e1e1;
+}
+.con-right>div{
+    width: 33.33%;
+    float: left;
+    border-right: 1px dashed #CCCCCC;
+    padding-top: 3rem;
+}
+.con-right>div:last-of-type{
+    border-right: 0px;
+}
+.con-right>div>span{
+    font-size: 14px;
+    color: #999999;
+    padding-left: 3rem;
+}
+.con-right>div>p{
+    font-size: 14px;
+    color: #525252;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+.con-right>div>p>a{
+    font-size: 30px;
+    color: #ff6600;
+    padding-right: 1rem;
+}
+/*服务*/
+.server-bg{
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+}
+.servers{
+    margin:0.5rem;
+    padding-bottom: 2rem;
+}
+.bc-h3{
+    font-size: 3.0rem;
+    color:#fff;
+}
+.bc-p{
+    font-size: 1.3rem;
+    color:#778090;
+    margin-bottom: 5.0rem;
+    margin-top: 1rem;
+}
+.servers {
+    width: 18%;
+}
+.servers h4{
+    
+    font-size: 1.8rem;
+    margin-top: 2.3rem;
+}
+.servers p{
+    color:#fff;
+    font-size: 1.2rem;
+    margin-top: 2.3rem;
+}
+.servers img{
+    width: 80%;
+}
+.servers>a{
+    display:block;
+    margin:2rem auto;
+    padding:0.5rem 1rem;
+    width:120px;
+    
+    border-radius:10px;
+}
+.b1{
+     border: #fc6a60 solid 1px;
+}
+.b2{
+     border: #2ae756 solid 1px;
+}
+.b3{
+    border: #e2c744 solid 1px;
+}
+.b4{
+    border: #20e3ff solid 1px;
+}
+.b5{
+    border: #ff9751 solid 1px;;
+}
+.a{
+    color:#fc6a60;
+}
+.b{
+    color: #2ae756;
+}
+.c{
+    color: #e2c744;
+}
+.d{
+    color: #20e3ff;  
+}
+.e{   
+    color: #ff9751;
+}
+/*服务*/
+.blue{
+    color:#89c1f5;
+}
+.fans{
+    border-bottom:5px solid #fc6a60;
+    border:1px solid #dcdcdc;
+    width: 32%;
+    /*float:left;*/
+    margin-left: 0.8rem;
+    padding:0 2.0rem 0 2.0rem;
+}
+.blue1{
+    margin-bottom:2rem;
+}
+
+.fans li p{
+    float: left;
+    display:inline-block;
+}
+.fangs li{
+    width: 100%;
+    margin-top: 3rem;
+}
+.fans li span{
+    float: left;
+    display:inline-block;
+    width: 70%;
+    /*padding-left: rem;*/
+    color:#a0a0a0;
+    line-height: 2rem;
+}
+.fans li p{
+    font-size: 1.8rem;
+    color:#b0b0b0;
+}
+.fans li i{
+    width: 3rem;
+    display:inline-block;
+}
+.fans h3{
+    text-align:center;
+    padding-bottom: 1rem;
+}
+.fans:nth-of-type(1){
+    border-top:5px solid #fc6a60;
+}
+.fans:nth-of-type(1) h3{
+    color:#fc6a60;
+    border-bottom:1px dashed #fc6a60;
+}
+.span1{
+    color:#fc6a60; 
+    font-size: 1.9rem;
+    font-weight: bold; 
+}
+.span2{
+    color:#ff9751; 
+    font-size: 1.9rem;
+    font-weight: bold; 
+}
+.span3{
+    color:#4acde0; 
+    font-size: 1.9rem;
+    font-weight: bold; 
+}
+.fans:nth-of-type(2){
+    border-top:5px solid #ff9751;
+}
+.fans:nth-of-type(2) h3{
+    color:#ff9751;
+    border-bottom:1px dashed #ff9751;
+}
+.fans:nth-of-type(3) h3{
+    color:#4acde0;
+    border-bottom:1px dashed #4acde0;
+}
+.fans:nth-of-type(3){
+    border-top:5px solid #4acde0;
+}
+.chakan{
+    display:block;
+    padding:0.5rem;
+    margin: 2rem auto;
+    width: 60%;
+    text-align: center;
+    color:#fff;
+
+}
+.cha1{
+    background: #fc6a60;
+}
+.cha2{
+    background: #ff9751;
+}
+.cha3{
+    background: #4acde0;
+}
+
+/*服务案例*/
+
+.anli{
+    /*margin-top: 5rem;*/
+    padding-bottom: 5rem;
+    background:url(../img/fuwu.jpg) no-repeat;
+    background-size:cover;
+}
+.anli h3{
+    padding-top: 2rem;
+}
+.anli1{
+    width: 60%;
+    margin:0 auto;
+}
+.anli1 a{
+    display:inline-block;
+    margin:2rem;
+    padding:0.5rem;
+}
+.a1{
+    background: #fff;
+}
+.a2{
+    background: #1c6cb1;
+}
+.a3{
+    background: #45a5f9;
+}
+.anli-pic {
+    margin-top: 4rem;
+}
+.anli-pic a{
+    display:block;
+    margin-top: -2rem;
+    padding:2rem;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/*关于我们*/
+.us-text{
+    font-size: 1.4rem;
+    color:#777777;
+    line-height: 2rem;
+}
+.about-pic{
+    margin-top:2rem;
+}
+.about-pic .col-md-3,.col-md-6{
+    padding:0;
+}
+.about-pic .col-md-3{
+    padding-top: 4rem;
+}
+/*new*/
+.new{
+    background:url(../img/cha.jpg) no-repeat center;
+    background-size:cover;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.new .bc-p{
+    margin-bottom:0;
+    /*margin-top: 0;*/
+    color:#fff;
+}
+.new-more{
+    display:inline-block;
+    padding:0.5rem;
+    background: #20e3ff;
+    color:#fff;
+    text-align: center;
+    margin-left: 47%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.news-pic h3{
+    font-size: 1.7rem;
+    color:#fff;
+}
+.news-pic p{
+    font-size: 1rem;
+    color:#adadad;
+    margin-bottom: 2rem;
+}
+.news-pic img{
+    width: 100%;
+}
+.news .col-md-3{
+    padding-left: 0;
+}
+.news-more{
+    display:inline-block;
+    padding:1rem;
+    margin:1rem auto;
+    border:1px solid #20e3ff;
+    color:#20e3ff;
+    margin-left:33%;
+}
+/*lianxiwomen*/
+.tel h3{
+    color:#49adff;
+}
+.tel p{
+    margin-bottom: 0;
+}
+.tell{
+    width: 60%;
+    margin:2rem auto;
+    border:1px solid #e5e5e5;
+    padding:2rem 2rem 5rem 2rem ;
+}
+.tells{
+    border-right:1px solid #e5e5e5 ;
+}
+.tell p{
+
+}
+.tells img{
+    margin-right: 1rem;
+    width: 20%;
+}
+.tell p{
+    color:#a0a0a0;
+    width: 60%;
+}
+.tells:last-child{
+    border-right: 0;
+}
+.breadcrumb > li + li:before {
+    padding: 0;
+    color: #ccc;
+    content: "";
+}
+footer{
+    background: #3f3f3f;
+    margin-top: 2rem;
+}
+.f-logo{
+    margin-top: -2.7rem;
+    padding:0.5rem;
+}
+.f-logo img{
+    width: 100%;
+}
+.foo-nav{
+
+    margin-top: 0rem;
+    color:#fff;
+}
+.foo-right .breadcrumb li a{
+    color:#fff;
+    margin-left: 0.5rem;
+    /*margin-right: 5rem;*/
+    padding-right: 1rem;
+}
+
+
+.foo-text p{
+    font-size: 1.3rem;
+    color:#9b9796;
+    /*padding-left: rem;*/
+}
+.f-left{
+    margin-left:2.2rem;
+    margin-right: 2.2rem;
+}
+
+.erweima{
+    margin-left: 6rem;
+    padding:3rem;
+    margin-top: -6rem;
+}
+
